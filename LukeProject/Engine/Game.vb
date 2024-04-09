@@ -8,6 +8,7 @@
     Private pictureBox As PictureBox
     Private renderImage As Bitmap
     Private WithEvents gameTimer As Timer
+    Public Shared stateManager As StateManager
 
     Private title As String
     Private windowWidth As Integer
@@ -52,6 +53,9 @@
             .Interval = FPS
             .Enabled = True
         End With
+        ' Setup StateManager
+        stateManager = New StateManager(New MenuState())
+        ' Start game tick timer
         gameTimer.Start()
     End Sub
 
@@ -65,11 +69,11 @@
     End Sub
 
     Private Sub Tick(ByVal delta As Double)
-
+        stateManager.Tick(delta)
     End Sub
 
     Private Sub Render(ByVal g As Graphics)
-
+        stateManager.Render(g)
     End Sub
 
     Protected Overrides Sub Finalize()
@@ -78,5 +82,6 @@
         Me.renderImage.Dispose()
         Me.pictureBox.Dispose()
         Me.gameTimer.Dispose()
+        stateManager.Dispose()
     End Sub
 End Class

@@ -10,3 +10,9 @@ C:\Users\plais\AppData\Local\Temporary Projects\LukeProject\obj\x86\Debug\LukePr
 C:\Users\plais\onedrive\documents\visual studio 2010\Projects\LukeProject\LukeProject\obj\x86\Debug\LukeProject.exe
 C:\Users\plais\onedrive\documents\visual studio 2010\Projects\LukeProject\LukeProject\obj\x86\Debug\LukeProject.xml
 C:\Users\plais\onedrive\documents\visual studio 2010\Projects\LukeProject\LukeProject\obj\x86\Debug\LukeProject.pdb
+C:\Users\plais\onedrive\documents\visual studio 2010\Projects\LukeProject\LukeProject\bin\Debug\LukeProject.exe
+C:\Users\plais\onedrive\documents\visual studio 2010\Projects\LukeProject\LukeProject\bin\Debug\LukeProject.pdb
+C:\Users\plais\onedrive\documents\visual studio 2010\Projects\LukeProject\LukeProject\bin\Debug\LukeProject.xml
+C:\Users\plais\onedrive\documents\visual studio 2010\Projects\LukeProject\LukeProject\obj\x86\Debug\LukeProject.Form1.resources
+C:\Users\plais\onedrive\documents\visual studio 2010\Projects\LukeProject\LukeProject\obj\x86\Debug\LukeProject.Resources.resources
+C:\Users\plais\onedrive\documents\visual studio 2010\Projects\LukeProject\LukeProject\obj\x86\Debug\LukeProject.vbproj.GenerateResource.Cache
